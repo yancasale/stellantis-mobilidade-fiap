@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #185a9d;
+  --color-secondary: #43cea2;
+  --font-family: 'Montserrat', sans-serif;
+}
+
+body.largerFont {
+  font-size: 18px;
+}
+
+
+
+body.bodyBold span,
+body.bodyBold p,
+body.bodyBold a,
+body.bodyBold h1,
+body.bodyBold h2,
+body.bodyBold h3 {
+  font-weight: 900;
+}
+
+body.contraste {
+  background-color: var(--color-black);
+}
+
+body.contraste .secao-apresentacao,
+body.contraste .header-stickytop,
+body.contraste .container-hospedagem,
+body.contraste .card-container,
+body.contraste .header-navbar,
+body.contraste footer {
+  background-color: var(--color-white) !important;
+}
+
+
+
+body.contraste header {
+  background: var(--color-black);
+}
+
+body.contraste h1,
+body.contraste h2,
+body.contraste h3,
+body.contraste h4,
+body.contraste span,
+body.contraste li,
+body.contraste p {
+  color: var(--color-white) !important;
+}
+
+body.contraste .card-text {
+  color: var(--color-black) !important;
+}
+ 
+
+body.contraste .header__menu--links a {
+  color: var(--color-white) !important;
+}
+
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
